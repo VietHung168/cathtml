@@ -1,0 +1,643 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "IntelOne Display";
+  background-color: #f3f4f8;
+}
+.body-conten {
+  width: 100%;
+  background-color: #0c011c;
+}
+.layer-slide {
+  padding-bottom: 100px;
+}
+.layer-slide img {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.conten-layer-slide {
+  position: absolute;
+  left: 60%;
+  top: 30px;
+  width: 30%;
+}
+.title {
+  font-family: "IntelOne Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 10px;
+  line-height: 110%;
+  background: linear-gradient(91.92deg, #a2f996 8.6%, #76f9e3 103.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.conten {
+  font-family: "IntelOne Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 110%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  /* or 61px */
+
+  color: #ffffff;
+}
+.conten1 {
+  font-family: "IntelOne Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 110%;
+  color: #ffffff;
+}
+.conten2 {
+  font-family: "IntelOne Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 110%;
+  color: #ffffff;
+}
+.layer-hieunang {
+  width: 100%;
+  height: auto;
+  /* position: Absolute; */
+  /* background-color: #0C011C; */
+}
+.layer-hieunang-conten {
+  /* position: absolute; */
+  /* left: 60%;
+top: 30px; */
+  width: 30%;
+  float: left;
+  margin-left: 10%;
+}
+.layer-hieunang-conten .conten1 {
+  margin-top: 200px;
+}
+.layer-hieunang img {
+  width: 60%;
+  /* float: left; */
+}
+.layer-kientruc {
+  width: 100%;
+  padding-bottom: 150px;
+}
+.conten-kientruc {
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
+  position: relative;
+}
+.background-content {
+  margin-top: 100px;
+}
+
+.ct {
+  position: absolute;
+  top: 0px;
+}
+.colum1,
+.colum2 {
+  width: 50%;
+  /* height: 100%; */
+}
+.colum1 {
+  top: 800px;
+}
+.row2 .title,
+.row2 .conten2 {
+  margin-left: 120px;
+  width: 57%;
+  text-align: left;
+}
+.colum2 {
+  top: 200px;
+  left: 50%;
+  width: 50%;
+}
+.colum2 .row1,
+.colum2 .row2 {
+  margin-left: 100px;
+}
+.row1 .title,
+.row1 .conten2 {
+  margin-left: 120px;
+  width: 50%;
+  text-align: left;
+}
+.colum2 .row2 {
+  position: absolute;
+  top: 800px;
+}
+.row1 {
+  position: absolute;
+  background-image: url("./img/Group\ 501.png");
+  background-repeat: no-repeat;
+  top: 100px;
+  height: 100%;
+  padding-bottom: 500px;
+}
+.row1 .ly1 {
+  position: absolute;
+  top: -75px;
+  left: -30%;
+}
+.row1 .ly2 {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+
+.row1 .conten2 {
+  width: 78%;
+  padding-top: 50px;
+  margin-left: 40px;
+}
+.layer-uudiem {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 100px;
+  margin-top: 100px;
+}
+.layer-uudiem img {
+  width: 100%;
+}
+
+.icon {
+  width: 20px;
+  height: 40px;
+  margin-left: -20px;
+  position: relative;
+  z-index: 1;
+}
+.pan1 {
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  width: 60%;
+  height: 150px;
+  background-image: url("./img/Group502\ .png");
+  background-repeat: no-repeat;
+}
+.choesang {
+  position: absolute;
+  margin: 0 auto;
+  left: -150px;
+  top: -50px;
+  z-index: 0;
+}
+.tt1 {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 20px;
+  font-family: "IntelOne Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 110%;
+  color: #ffffff;
+  text-align: left;
+}
+.tt2 {
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  left: 20px;
+  font-family: "IntelOne Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 110%;
+  color: #ffffff;
+  text-align: left;
+}
+.pan2 {
+  display: flex;
+  margin-left: -50px;
+}
+.pan2 .pan1 {
+  width: 46%;
+}
+.pan2 .pan1 .tt1 {
+  width: 90%;
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+}
+.pan2 .pan1 .tt2 {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+}
+.product {
+  
+  background: url("./img/Vector\ Smart\ Object\ copy\ 8\ \(2\).png");
+  background-size: cover;
+  padding-top: -100px;
+}
+.header-product {
+  border: #ffffff 10px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #0c011c;
+  background-image: url("./img/Layer\ 12\ copy\ 2\ 3\ \(1\).png"),
+    url("./img/Layer\ 12\ copy\ 2\ 4.png");
+  background-position: top left, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  width: 60%;
+  height: 100px;
+  border-radius: 50px;
+  position: relative;
+}
+.header-product img {
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+}
+.header-product span {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 80px;
+  font-family: "IntelOne Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 110%;
+  text-align: center;
+  background: linear-gradient(180deg, #c5fd4d 0%, #7af1f9 123.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.list-product {
+  width: 100%;
+}
+.list-row1 {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap ;
+}
+.list-item {
+  background-color: #ffffff;
+  width: 230px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.lbgg {
+  background-color: #b3b5b9;
+  width: 60%;
+  border-top: 100px;
+}
+.lbgiam {
+  width: 60%;
+  background: linear-gradient(to right, #faab08, #d42611);
+  display: flex;
+  border-radius: 10px;
+}
+.lbgiam span:first-child {
+  width: 20px;
+}
+.lbgiam span:last-child {
+  width: 50%;
+  color: #fff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-size: 10px;
+  line-height: 13px;
+  margin-left: 3px;
+  overflow: hidden;
+  padding: 4px 0 0 3px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  -webkit-line-clamp: 2;
+  text-transform: uppercase;
+}
+.ts {
+  margin-left: 10px;
+  border: 1px solid #e0e0e0;
+}
+.ha {
+  width: 100%;
+}
+.gia {
+  text-decoration-line: line-through;
+}
+.dmch li {
+  margin-left: -20px;
+}
+footer {
+  display: flex;
+}
+.video {
+    margin-left: 180px;
+  }
+.cl2 {
+  width: 50%;
+}
+.cl2 img {
+  width: 30%;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.cl2 p {
+  width: 30%;
+  margin-left: 15px;
+}
+.cl-r {
+  display: flex;
+}
+.footer {
+    width: 100%;
+  margin: 0 auto;
+}
+.conte-ft{
+    margin: 0px auto;
+}
+iframe {
+  margin-left: 180px;
+}
+.video,
+.cl2 {
+  margin-top: 100px;
+}
+@media (max-width: 400px) {
+  .layer-slide {
+    padding-bottom: 50px;
+  }
+  .layer-slide img:last-child {
+    margin-top: 350px;
+    margin-left: 10px;
+  }
+  .conten-layer-slide {
+    position: absolute;
+    left: 10%;
+    top: 30px;
+    width: 30%;
+  }
+  #logo {
+    margin-left: 100px;
+  }
+  #core {
+    position: absolute;
+    left: 20%;
+    top: -120px;
+    width: 80%;
+  }
+  .conten-layer-slide {
+    /* position: absolute; */
+    /* left: 60%;
+        top: 30px; */
+    width: 60%;
+  }
+  /* .conten-layer-slide img:last-child{
+          top:200px;
+      } */
+  .title {
+    width: 100%;
+    font-family: "IntelOne Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 110%;
+  }
+  .conten {
+    width: 100%;
+    font-family: "IntelOne Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110%;
+    background: linear-gradient(91.92deg, #ffff 8.6%, #ffff 103.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .conten1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+    font-family: "IntelOne Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110%;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .conten2 {
+    width: 100%;
+    font-family: "IntelOne Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .layer-hieunang-conten {
+    width: 80%;
+    height: auto;
+    top: 10px;
+  }
+  .layer-hieunang-conten .conten1 {
+    margin-top: 0px;
+  }
+  .layer-hieunang img {
+    width: 100%;
+  }
+  .layer-kientruc {
+    width: 100%;
+  }
+  .colum1,
+  .colum2 {
+    width: 50%;
+    top: 50px;
+    left: 40px;
+  }
+  .row1 {
+    width: 100%;
+    padding-bottom: 0px;
+    /* margin: 0px; */
+    /* padding: 0px; */
+  }
+  .row1 .ly1 {
+    /* position: absolute; */
+    top: -20px;
+    left: -10%;
+  }
+  .row1 .ly2 {
+    /* position: absolute; */
+    top: 30px;
+    width: 70%;
+    left: 10px;
+  }
+  .row1 .conten2 {
+    padding-top: 50px;
+    margin-left: 10px;
+  }
+  .row2 .title,
+  .row2 .conten2 {
+    margin-left: 10px;
+    width: 57%;
+    text-align: left;
+  }
+  .row2 {
+    margin-top: 300px;
+    margin-left: -40px;
+  }
+  .colum2 .row2 {
+    top: 50px;
+    width: 100%;
+    margin-left: 150px;
+  }
+  .background-content .conten1 {
+    font-family: "IntelOne Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 110%;
+
+    background: linear-gradient(92.12deg, #a2f996 8.39%, #76f9e3 55.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .background-content .conten2 {
+    font-family: "IntelOne Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 110%;
+
+    color: #ffffff;
+  }
+  .pan1 {
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-image: url(./img/Group502\ .png);
+    background-repeat: no-repeat;
+  }
+  .choesang {
+    position: absolute;
+    margin: 0 auto;
+    left: -150px;
+    top: -30px;
+    z-index: 0;
+  }
+  .tt1 {
+    margin-top: 10px;
+    font-family: "IntelOne Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 110%;
+    color: #ffffff;
+  }
+  .tt2 {
+    margin-top: -15px;
+    font-family: "IntelOne Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 110%;
+    color: #ffffff;
+  }
+  .pan2 {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .pan2 .pan1 {
+    width: 40%;
+    padding-bottom: 150px;
+  }
+  .pan2 .choesang {
+    left: -30px;
+    top: -10px;
+  }
+  .pan2 .tt1 {
+    top: 5px;
+    /* left: 0px; */
+  }
+  .pan2 .tt2,
+  .pan2 .tt1 {
+    width: 100%;
+    left: 5px;
+  }
+  .pan2 .pan1:first-child .tt2 {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+  }
+  .header-product {
+    width: 95%;
+    height: 50px;
+  }
+  .header-product span {
+    font-family: "IntelOne Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 110%;
+    /* identical to box height, or 28px */
+
+    text-align: center;
+
+    background: linear-gradient(180deg, #c5fd4d 0%, #7af1f9 123.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .dmch li {
+    margin-left: 10px;
+  }
+  .list-row1 {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap ; 
+  }
+  .list-row1 .list-item{
+      width: 40%;
+  }
+  footer{
+    flex-wrap: wrap ;
+  }
+  .video{
+      margin-left: 10px;
+  }
+  iframe{
+      width: 130%;
+      height: 250px;
+  
+
+  }
+  .cl2{
+      width: 100%;
+  }
+  .cl-r img{
+      width: 50%;
+      margin-left: 10px;
+  }
+  .cl-r p{
+    width: 50%;
+}
+
+}
